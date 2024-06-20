@@ -24,7 +24,7 @@
 }
 /* #endregion */
 
-/* #region Base Styles */
+/* #region Base */
 body {
   /* #region Fonts */
   font-family: var(--font-family);
@@ -79,7 +79,7 @@ button {
 
 /* #endregion */
 
-/* #region Common Styles */
+/* #region Button */
 
 .button {
   /* display: block; */
@@ -104,7 +104,9 @@ button {
 .button:focus {
   background: var(--accent-color);
 }
+/* #endregion */
 
+/* #region Logo */
 .logo {
   font-family: var(--second-family);
   font-weight: 700;
@@ -115,11 +117,11 @@ button {
   color: var(--iris);
 }
 
-.logo > .studio {
+.logo-accent {
   color: var(--navy-blue);
 }
 
-.logo > .studio.light {
+.logo-accent.light {
   color: var(--cloud);
 }
 /* #endregion */
@@ -135,12 +137,12 @@ button {
   align-items: center;
 } */
 
-.nav-list {
-  /* display: flex; */
+/* .nav-list {
+  display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* gap: 40px 16px; */
-}
+  gap: 40px 16px;
+} */
 
 .nav-item {
   font-weight: 500;
@@ -152,16 +154,17 @@ button {
   color: var(--accent-color);
 }
 
-.address {
+/* .address {
   margin-left: auto;
-}
+} */
 
+/* 
 .address-list {
-  /* display: flex; */
+  display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* gap: 40px 16px; */
-}
+  gap: 40px 16px;
+} */
 
 .address-item {
   letter-spacing: 0.02em;
